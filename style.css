@@ -92,6 +92,10 @@ main {
     border-radius: 1rem;
 }
 
+.card__image {
+    border-radius: 0.5rem;
+}
+
 .card__title {
     font: var(--heading);
     color: var(--white);
