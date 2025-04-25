@@ -90,6 +90,8 @@ main {
     padding: 1.5rem;
     max-width: 350px;
     border-radius: 1rem;
+    display: grid;
+    gap: 1.5rem;
 }
 
 .card__image {
@@ -100,8 +102,6 @@ main {
     font: var(--heading);
     color: var(--white);
 }
-
-
 
 .card__avatar {
     max-height: 2rem;
