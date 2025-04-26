@@ -120,6 +120,11 @@ a:hover {
     gap: 1.5rem;
 }
 
+.card__container {
+    position: relative;
+
+}
+
 .card__button {
     position: relative;
     background: transparent;
@@ -139,10 +144,12 @@ a:hover {
     background: #00fff880;
     opacity: 0;
     transition: 0.2s ease;
+    z-index: -1;
 }
 
 .card__button:hover .overlay {
     opacity: 1;
+    z-index: 1;
 }
 
 .card__description {
